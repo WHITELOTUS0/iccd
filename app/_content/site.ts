@@ -30,7 +30,79 @@ export const nav = [
   { href: "/where-we-work", label: "Where We Work" },
   { href: "/stories", label: "Stories" },
   { href: "/get-involved", label: "Get Involved" },
+  { href: "/membership", label: "Membership" },
   { href: "/contact", label: "Contact" },
+];
+
+export const membership = {
+  tagline: "Christ-Centered | Youth Focused | Global Impact",
+  whoWeAre:
+    "International Christian Concern for Development (ICCD) is a faith-based nonprofit transforming lives of vulnerable youth, women, teenage mothers, and refugees across Uganda and Africa through vocational skills, Gospel hope, agriculture, and economic empowerment.",
+  vision:
+    "A world where every vulnerable youth lives with dignity, skills, and hope in Christ.",
+  visionScripture: "Jeremiah 29:11",
+  whatsapp: "+256754044067",
+  email: "iccd42351@gmail.com",
+  website: "http://www.iccdfaith.org",
+  websiteLabel: "www.iccdfaith.org",
+  impactAmount: "$20",
+  impactLine:
+    "Trains 1 youth, feeds 10 children, or supports 1 teenage mother for a month.",
+  closingScripture: {
+    text: "Carry each other's burdens...",
+    ref: "Galatians 6:2",
+  },
+};
+
+export const membershipTiers = [
+  { id: "youth", name: "Youth Member", price: "$5", period: "per year" },
+  { id: "community", name: "Community Member", price: "$10", period: "per year" },
+  {
+    id: "global-friend",
+    name: "Global Friend & Diaspora",
+    price: "$20",
+    period: "per year",
+  },
+  {
+    id: "local-leaders",
+    name: "Community Government & Local Leaders",
+    price: "$20",
+    period: "per year",
+  },
+  {
+    id: "churches",
+    name: "Churches & Faith-Based Groups",
+    price: "$50",
+    period: "per year",
+  },
+  {
+    id: "humanitarian",
+    name: "Humanitarian Organizations & CBOs",
+    price: "$75",
+    period: "per year",
+  },
+  {
+    id: "ngos",
+    name: "NGOs & International Partners",
+    price: "$100",
+    period: "per year",
+  },
+  {
+    id: "lifetime",
+    name: "Lifetime Champion",
+    price: "$150",
+    period: "one-time",
+    featured: true,
+  },
+];
+
+export const membershipBenefits = [
+  "E-Certificate of membership",
+  "Partnership MOU for organizations",
+  "Your logo on www.iccdfaith.org",
+  "Quarterly Impact Reports",
+  "Child Sponsorship Link",
+  "Invitation to Global Prayer & Impact Calls",
 ];
 
 export const partners = [

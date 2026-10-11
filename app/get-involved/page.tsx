@@ -46,6 +46,13 @@ export default function GetInvolvedPage() {
             href="/contact"
           />
           <PathCard
+            id="membership"
+            title="Become a member"
+            description="Join the ICCD movement as a Youth Member, Community Member, Global Friend, Church, Humanitarian Organization or NGO partner — from $5 a year. Members receive an e-certificate, quarterly impact reports and invitations to Global Prayer & Impact Calls. Your $20 trains 1 youth, feeds 10 children, or supports 1 teenage mother for a month."
+            cta="See membership categories"
+            href="/membership"
+          />
+          <PathCard
   id="sponsor-a-child"
   title="Sponsor a child"
   description={`In communities across Uganda, orphans, vulnerable children, and refugee children face an uncertain future — many bright and capable, yet unable to attend school simply because no one stands behind them. "Defend the weak and the fatherless; uphold the cause of the poor and the oppressed" (Psalm 82:3). ICCD is calling upon touched hearts around the world to sponsor a child — from primary school all the way to university — providing not just school fees, but skills training, mentorship, and consistent care along the way.
